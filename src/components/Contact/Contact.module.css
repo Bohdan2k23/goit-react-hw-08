@@ -1,0 +1,50 @@
+.myIcon {
+  fill: black;
+}
+
+.contactInfo {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 0;
+  gap: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.contactItem {
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactInfo li p {
+  color: black;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 5px;
+}
+
+.contactButton {
+  display: flex;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.contactButton:hover {
+  border-color: rgb(102, 102, 102);
+  color: white;
+  background-color: rgb(243, 102, 102);
+  transition: background 0.5s ease;
+}

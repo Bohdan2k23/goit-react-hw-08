@@ -1,0 +1,8 @@
+.menuLink {
+  color: rgb(224, 98, 9);
+  margin-right: 10px;
+}
+
+.active {
+  color: gray;
+}

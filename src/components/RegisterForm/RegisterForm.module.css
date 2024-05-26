@@ -1,0 +1,41 @@
+.formSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px auto;
+  width: 300px;
+  border: 2px solid rgb(121, 120, 120);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.formLabel {
+  color: black;
+}
+
+.inputField {
+  border: 1px solid rgb(117, 116, 116);
+  border-radius: 3px;
+}
+
+.errorText {
+  color: red;
+  margin: 0;
+  font-size: 12px;
+}
+
+.formButton {
+  padding: 5px;
+  margin: 10px auto 0 auto;
+  border: 1px solid black;
+  max-width: max-content;
+  border-radius: 5px;
+}
+
+.formButton:hover,
+.formButton:focus {
+  border-color: rgb(102, 102, 102);
+  color: white;
+  background-color: rgb(155, 45, 206);
+  transition: background 0.5s ease;
+}

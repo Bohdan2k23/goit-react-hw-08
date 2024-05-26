@@ -1,0 +1,8 @@
+.wrapper {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  font-size: 20px;
+}

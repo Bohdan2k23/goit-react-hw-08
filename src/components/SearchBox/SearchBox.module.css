@@ -1,0 +1,15 @@
+.searchTitle {
+  color: black;
+  margin: 20px 0 0 0;
+}
+
+.searchBox {
+  width: 323px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.searchInput {
+  width: 320px;
+}
